@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# How to create:
+
+1. Create a workspace with: 
+ng new ws-ng-fvalverdeu --createApplication=false
+
+The prefix fvu is for the tag in your HTML files: <fvu-mycomponent></fvu-mycomponent>
+
+2. Create a library with:
+ng g library fvu-commons --prefix=fvu
+
+3. The structure of directories is:
+
+4. Create the components.
+
+5. Update de public-api.ts file with the new components route.
