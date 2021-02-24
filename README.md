@@ -22,7 +22,7 @@ ng g library fvu-commons --prefix=fvu
 
 3. The structure of directories is:
 
-![demo-lib-components-directories](https://user-images.githubusercontent.com/36082218/109058268-ca94c080-76b0-11eb-91d5-cf332807504c.png)
+![demo-lib-components-directories](https://user-images.githubusercontent.com/36082218/109058566-22cbc280-76b1-11eb-857e-bd3549399b5a.png)
 
 4. Create the components.
 
