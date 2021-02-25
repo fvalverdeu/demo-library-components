@@ -1,0 +1,30 @@
+:host {
+  input {
+    background-color: rgb(197, 248, 235);
+    border: 1px solid rgb(8, 53, 2);
+    border-radius: 15px;
+    color: rgb(8, 53, 2);
+  }
+  input:active, input:focus{
+    border: none;
+  }
+  .xs {
+    width: 120px;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  .small {
+    width: 160px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  .medium {
+    width: 180px;
+  }
+  .large {
+    width: 200px;
+  }
+  .xl {
+    width: 100%;
+  }
+}

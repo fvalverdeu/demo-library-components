@@ -1,0 +1,31 @@
+:host {
+  button {
+    background-color: rgb(50, 231, 186);
+    padding: 4px;
+    border-radius: 15px;
+    color: rgb(8, 53, 2);
+  }
+  button:active, button:focus{
+    border: none;
+    outline: none;
+  }
+  .xs {
+    width: 120px;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  .small {
+    width: 160px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  .medium {
+    width: 180px;
+  }
+  .large {
+    width: 200px;
+  }
+  .xl {
+    width: 100%;
+  }
+}
