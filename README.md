@@ -77,7 +77,21 @@ npm whoami
 npm publish
 ```
 
-5. For other publishing you should change the version manualy in package.json file.
+5. Verify your library in nmp with:
+```
+npm search fvu-commons
+```
+- For other publishing you should change the version manualy in package.json file.
+
+
+## How to use your Angular library from npm
+
+1. Create a project with:
+```
+ng new my-app
+```
+
+2. 
 
 
 

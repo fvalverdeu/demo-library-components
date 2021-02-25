@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-export type Size = 'xs' | 'small' | 'medium' | 'large' | 'xl';
+type Size = 'xs' | 'small' | 'medium' | 'large' | 'xl';
 const sizeClassList: Array<Size> = ['xs', 'small', 'medium', 'large', 'xl'];
 
-export type Type = 'text' | 'password' | 'email' | 'number' | 'tel';
+type Type = 'text' | 'password' | 'email' | 'number' | 'tel';
 const typeList: Array<Type> = ['text', 'password', 'email', 'number', 'tel'];
 
 @Component({

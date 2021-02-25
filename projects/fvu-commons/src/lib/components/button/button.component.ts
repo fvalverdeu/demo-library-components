@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
-export type Size = 'xs' | 'small' | 'medium' | 'large' | 'xl';
+type Size = 'xs' | 'small' | 'medium' | 'large' | 'xl';
 const sizeClassList: Array<Size> = ['xs', 'small', 'medium', 'large', 'xl'];
 
 @Component({
