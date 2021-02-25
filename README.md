@@ -45,7 +45,7 @@ If you want to use Ivy instead of View Engine, build with:
 ng build fvu-commons
 ```
 - In this case, Angular CLI show the follow warning because is not recomendable use Ivy.
-- ![warning-to-use-ivy](https://user-images.githubusercontent.com/36082218/109093129-d8b10400-76e5-11eb-95ac-c1ef5fd52131.png)
+   ![warning-to-use-ivy](https://user-images.githubusercontent.com/36082218/109093129-d8b10400-76e5-11eb-95ac-c1ef5fd52131.png)
 
 - This warning is because the apps whit < Angular 9 not working correctly.
 
